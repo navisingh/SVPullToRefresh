@@ -5,7 +5,7 @@
 // Copyright (c) 2012 samvermette.com. All rights reserved.
 //
 // https://github.com/samvermette/SVPullToRefresh
-//
+///
 
 #import <UIKit/UIKit.h>
 
