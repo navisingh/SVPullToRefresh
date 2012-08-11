@@ -7,6 +7,14 @@
 // https://github.com/samvermette/SVPullToRefresh
 ///
 
+
+/**
+ 1) Create the header view which displays the arrow, the spinner and the text messages
+ 2) Add it to the UIScrollView with a negavite y value
+ 3) Implement the UIScrollView’s delegate to set the contentInset as the header height (therefore making it visible) and ask the controller to refresh the content
+ 4) Once the controller is done, it sets the contentInset to zero (therefore hiding the header view)
+ */
+
 #import <UIKit/UIKit.h>
 
 @interface SVPullToRefresh : UIView
